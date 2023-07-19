@@ -1,32 +1,47 @@
-# Adivinhe o Número Secreto
+# Projeto - Jogo do Número Secreto
 
-Este projeto é um jogo em que o usuário deve adivinhar o número secreto gerado aleatoriamente. O jogo utiliza o reconhecimento de voz para capturar as tentativas do usuário.
+O projeto Jogo do Número Secreto é um jogo desenvolvido para entreter e desafiar os jogadores a adivinharem um número secreto dentro de um intervalo pré-definido. O jogo pode ser acessado através do link [https://numero-secreto-kohl.vercel.app/](https://numero-secreto-kohl.vercel.app/).
 
-## Tecnologias utilizadas
-
+### Tecnologias Utilizadas
 - HTML
 - CSS
 - JavaScript
-- API de reconhecimento de voz
+- API de Reconhecimento de Voz
 
-## Como jogar
+## Descrição do Projeto
 
-1. Clique no botão "Iniciar".
-2. Fale um número de 1 a 1000.
-3. O jogo irá informar se o número é maior ou menor que o número secreto.
-4. Repita o processo até adivinhar o número secreto.
+O Jogo do Número Secreto é um projeto criado para proporcionar diversão e entretenimento aos jogadores. O objetivo do jogo é adivinhar o número secreto gerado aleatoriamente dentro de um intervalo determinado.
 
-## Como executar o projeto
+O site possui as seguintes características:
 
-1. Clone o repositório para o seu computador.
-2. Abra o arquivo `index.html` no seu navegador.
+### 1. Interface Intuitiva e Amigável
 
-## Contribuindo
+O projeto possui uma interface simples e intuitiva, facilitando a interação do jogador com o jogo. A interface amigável permite que os jogadores entendam facilmente as regras e os controles do jogo.
 
-Se você quiser contribuir com este projeto, siga estas etapas:
+### 2. Contagem de Tentativas e Dicas
 
-1. Faça um fork deste repositório.
-2. Crie um branch para suas alterações: `git checkout -b minha-nova-funcionalidade`
-3. Faça suas alterações e confirme-as: `git commit -m 'Adicionar nova funcionalidade'`
-4. Envie para o branch original: `git push origin minha-nova-funcionalidade`
-5. Crie uma solicitação de pull.
+Durante o jogo, são fornecidas informações sobre o número de tentativas realizadas pelo jogador. Além disso, são fornecidas dicas para auxiliar o jogador na descoberta do número secreto.
+
+### 3. Responsividade
+
+O site foi desenvolvido com foco na responsividade, permitindo que os jogadores possam desfrutar do jogo em diferentes dispositivos, como desktops, tablets e dispositivos móveis.
+
+## Como Jogar
+
+1. Acesse o link [https://numero-secreto-kohl.vercel.app/](https://numero-secreto-kohl.vercel.app/) para iniciar o jogo.
+
+2. Escolha o intervalo de números em que o número secreto será gerado.
+
+3. Digite sua tentativa no campo de entrada e clique no botão "Tentar".
+
+4. O jogo fornecerá dicas sobre a relação entre a sua tentativa e o número secreto.
+
+5. Continue fazendo tentativas até adivinhar corretamente o número secreto.
+
+6. Ao adivinhar corretamente, o jogo informará o número de tentativas que você precisou para vencer.
+
+7. Divirta-se jogando e tente alcançar a menor quantidade de tentativas possível!
+
+## Contribuição
+
+Contribuições para a melhoria deste projeto são bem-vindas. Se você tiver sugestões, correções de bugs ou novas ideias, fique à vontade para enviar pull requests ou abrir issues neste repositório.
